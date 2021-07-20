@@ -1,0 +1,73 @@
+.perfil {
+    background-color: #141414;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 3.5rem;
+    background: rgb(20, 20, 20);
+    background: linear-gradient(
+        0deg,
+        rgba(20, 20, 20, 1) 92%,
+        rgba(0, 0, 0, 1) 100%
+    );
+}
+
+.perfil__header {
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.perfil__header > img {
+    width: 6rem;
+    height: 1.7rem;
+}
+
+.perfil__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 0rem;
+}
+
+.perfil__container h1 {
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.perfil__list-container {
+    display: flex;
+}
+
+.perfil__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    margin-bottom: 5rem;
+}
+
+.perfil__list-item {
+    margin-right: 1.8rem;
+}
+
+.perfil__btn {
+    border: 0.06rem solid grey;
+    background-color: transparent;
+    color: grey;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+.perfil__btn:hover {
+    border: 0.06rem solid white;
+    color: white;
+}

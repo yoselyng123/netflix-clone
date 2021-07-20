@@ -1,0 +1,32 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-top: 10px solid #1E1E1D;
+    padding-bottom: 2rem;
+}
+
+.banner__left{
+    flex-direction: row-reverse;
+}
+
+.banner > img {
+    width: 35%;
+}
+
+.banner__info{
+    width: 35%;
+    text-align: left;
+}
+
+.banner__info > h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.banner__info > p {
+    font-size: 1.5rem;
+}

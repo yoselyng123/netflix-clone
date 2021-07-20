@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__img{
+    width: 160px;
+    height: 45px;
+}
+
+.header__btn{
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+

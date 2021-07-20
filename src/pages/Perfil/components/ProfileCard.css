@@ -1,0 +1,25 @@
+.profileCard {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 10rem;
+}
+
+.profile__img__wrapper {
+    height: 9.8rem;
+    border-radius: 0.3rem;
+}
+
+.profileCard:hover {
+    color: white;
+}
+.profileCard:hover .profile__img__wrapper {
+    border: 0.2rem solid white;
+}
+
+.profile__name {
+    color: grey;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0.6rem 0rem;
+}

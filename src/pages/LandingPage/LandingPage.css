@@ -1,0 +1,15 @@
+.landingPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.landingPage__section1 {
+    height: 95vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+        url('https://assets.nflxext.com/ffe/siteui/vlv3/b8e09d9c-d1e7-4800-afd9-810e41ace684/6d9913c3-f642-4126-b173-b579eae54809/VE-en-20210607-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+}
+
+.landingPage__section1__gradient {
+    height: 95vh;
+    background: linear-gradient(to top, transparent 0%, black 150%);
+}

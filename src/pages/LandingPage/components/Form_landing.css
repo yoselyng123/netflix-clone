@@ -1,0 +1,52 @@
+.info__form-btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    width: 200px;
+}
+
+.info__form-icon{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.info__form-text{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.info__form{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    max-width: 950px;
+    margin-bottom: 2rem;
+}
+
+.info__form-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.info__form-email{
+    padding: 1.3rem 0.5rem;
+    min-width: 450px;
+    font-size: 1rem;
+    color: black;
+    border: solid 1px #8c8c8c;
+    border-radius: 3px;
+}
+
+.info__form-email:focus{
+    outline: none;
+}
